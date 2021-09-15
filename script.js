@@ -31,9 +31,9 @@ class Ball {
 function setup() {
   createCanvas(500, 400);
 
- ball1 = new Ball(30,30,40,40,5,5,"red")
- ball2 = new Ball(130,40,40,40,5,5,"green")
- ball3 = new Ball(70,20,40,40,5,5,"blue")
+ ball1 = new Ball(30,30,40,65,5,5,"red")
+ ball2 = new Ball(130,40,20,15,2,5,"green")
+ ball3 = new Ball(70,20,50,40,4,5,"blue")
 }
 
 function draw() {
